@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Color Shifter",
+  "version": "0.1.0",
+  "description": "Démo d'extension qui injecte un style personnalisé.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

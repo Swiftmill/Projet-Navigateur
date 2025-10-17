@@ -1,0 +1,4 @@
+! HyperGX Browser - règles de confidentialité démo
+||facebook.com^$third-party
+||twitter.com^$third-party
+||linkedin.com^$third-party

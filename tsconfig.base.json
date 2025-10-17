@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["app/renderer/components/*"],
+      "@/pages/*": ["app/renderer/pages/*"],
+      "@/stores/*": ["app/renderer/stores/*"],
+      "@/themes/*": ["app/renderer/themes/*"],
+      "@/assets/*": ["app/renderer/assets/*"],
+      "@/lib/*": ["app/renderer/lib/*"],
+      "@/shared/*": ["app/shared/*"]
+    }
+  }
+}

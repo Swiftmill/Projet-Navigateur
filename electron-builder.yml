@@ -1,0 +1,24 @@
+appId: com.hypergx.browser
+productName: HyperGX Browser
+files:
+  - dist/**
+  - package.json
+extraResources:
+  - from: app/renderer/assets/videos
+    to: resources/videos
+asar: true
+directories:
+  output: release
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+win:
+  target:
+    - nsis
+linux:
+  target:
+    - AppImage
+publish:
+  provider: generic
+  url: ${AUTOUPDATE_URL}
