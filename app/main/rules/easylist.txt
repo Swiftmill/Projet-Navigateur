@@ -1,0 +1,4 @@
+! HyperGX Browser - règles de démonstration
+||doubleclick.net^
+||google-analytics.com^
+||googletagservices.com^
